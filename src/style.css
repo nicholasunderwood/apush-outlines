@@ -1,0 +1,60 @@
+body{
+  overflow: hidden;
+  padding: 8px 0;
+}
+#left, #right{
+  padding: 0 8px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#right{
+  float: right;
+  border-left: 3px solid #ced4da;
+}
+#left{
+  float: left;
+}
+.input-group{
+  margin: 0 auto;
+  padding: 0.4rem 0.1rem;
+  width: 100%;
+  border-top: 2px solid #ced4da;
+}
+.input-group>*{
+  width: 100%;
+}
+#motors_wrap, #motors{
+  border-top: none;
+}
+label{
+  font-size: 15px;
+  margin-bottom: 1px !important;
+}
+#gears_table{
+  overflow: scroll;
+}
+#table_wrap{
+  height: 12.5rem;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+#table_wrap::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+}
+#gear_wrapper{
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+#add_gear{
+  flex: 4;
+  margin-right: 12px;
+}
+#rm_gear{
+  flex: 1;
+}
+#outputs{
+  align-self: flex-end;
+}

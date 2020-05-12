@@ -1,0 +1,1 @@
+An application for calculations related to single speed gear boxes
