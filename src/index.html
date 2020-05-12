@@ -3,233 +3,84 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>FRC Single Speed Drivetrain Calculator</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
+  <title>APUSH DBQ Outline</title>
   <link rel="stylesheet" type="text/css" href="./bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
 <body>
-  <label for="prompt">Input</label>
-  <textarea id='prompt'>
-
-  </textarea>
-  <div class="pTopic">
-    <input type='button' class="toggle pt"></input>
-    <span>Paragraph 1</span>
-    <input type='text'>
+  <div class="section" id='promptDiv'>
+    <h5>Prompt</h5>
+    <textarea id='prompt'></textarea>
   </div>
-  <div class="pTopic">
-    <input type='button' class="toggle pt"></input>
-    <span>Paragraph 2</span>
-    <input type='text'>
-  </div>
-  <div class="pTopic">
-    <input type='button' class="toggle pt"></input>
-    <span>Paragraph 3</span>
-    <input type='text'>
-  </div>
-  <div>
-    <table>
+  <div class="section">
+    <h5>Paragraphs</h5>
+    <table class="" id='t1'>
       <tr>
-        <td class='docName'>Document A</td>
-        <td class="docDiscription"><input type="text"></td><td class="ptog p1tog"></td>
-        <td class="ptog p1tog"><input type="button" class="toogle dt"></td>
-        <td class="ptog p2tog"><input type="button" class="toogle dt"></td>
-        <td class="ptog p3tog"><input type="button" class="toogle dt"></td>
+        <td><span>Paragraph 1</span></td>
+        <td><textarea rows="1" class="form-control"></textarea></td>
+        <td class="tog"><input type='button' class="toggle pt form-control" id='1'></input></td>
       </tr>
       <tr>
-        <td class='docName'>Document B</td>
-        <td class="docDiscription"><input type="text"></td><td class="ptog p1tog"></td>
-        <td class="ptog p1tog"><input type="button" class="toogle dt"></td>
-        <td class="ptog p2tog"><input type="button" class="toogle dt"></td>
-        <td class="ptog p3tog"><input type="button" class="toogle dt"></td>
+        <td><span>Paragraph 2</span></td>
+        <td><textarea rows="1" class="form-control"></textarea></td>
+        <td class="tog"><input type='button' class="toggle pt form-control" id='2'></input></td>
       </tr>
       <tr>
-        <td class='docName'>Document C</td>
-        <td class="docDiscription"><input type="text"></td><td class="ptog p1tog"></td>
-        <td class="ptog p1tog"><input type="button" class="toogle dt"></td>
-        <td class="ptog p2tog"><input type="button" class="toogle dt"></td>
-        <td class="ptog p3tog"><input type="button" class="toogle dt"></td>
-      </tr>
-      <tr>
-        <td class='docName'>Document D</td>
-        <td class="docDiscription"><input type="text"></td><td class="ptog p1tog"></td>
-        <td class="ptog p1tog"><input type="button" class="toogle dt"></td>
-        <td class="ptog p2tog"><input type="button" class="toogle dt"></td>
-        <td class="ptog p3tog"><input type="button" class="toogle dt"></td>
-      </tr>
-      <tr>
-        <td class='docName'>Document E</td>
-        <td class="docDiscription"><input type="text"></td><td class="ptog p1tog"></td>
-        <td class="ptog p1tog"><input type="button" class="toogle dt"></td>
-        <td class="ptog p2tog"><input type="button" class="toogle dt"></td>
-        <td class="ptog p3tog"><input type="button" class="toogle dt"></td>
+        <td><span>Paragraph 3</span></td>
+        <td><textarea rows="1" class="form-control"></textarea></td>
+        <td class="tog"><input type='button' class="toggle pt form-control" id='3'></input></td>
       </tr>
     </table>
   </div>
+  <div class="section">
+    <h5>Documents</h5>
+    <table class="" id='t2'>
+      <tr>
+        <th>Doc</th>
+        <th>Description</th>
+        <th class="p1tog">P1</th>
+        <th class="p2tog">P2</th>
+        <th class="p3tog">P3</th>
+      </tr>
+      <tr>
+        <td class='docName'>A</td>
+        <td class="docDiscription"><textarea rows="1" class="form-control"></textarea></td>
+        <td class="tog p1tog"><input type="button" class="toggle dt form-control"></td>
+        <td class="tog p2tog"><input type="button" class="toggle dt form-control"></td>
+        <td class="tog p3tog"><input type="button" class="toggle dt form-control"></td>
+      </tr>
+      <tr>
+        <td class='docName'>B</td>
+        <td class="docDiscription"><textarea rows="1" class="form-control"></textarea></td>
+        <td class="tog p1tog"><input type="button" class="toggle dt form-control"></td>
+        <td class="tog p2tog"><input type="button" class="toggle dt form-control"></td>
+        <td class="tog p3tog"><input type="button" class="toggle dt form-control"></td>
+      </tr>
+      <tr>
+        <td class='docName'>C</td>
+        <td class="docDiscription"><textarea rows="1" class="form-control"></textarea></td>
+        <td class="tog p1tog"><input type="button" class="toggle dt form-control input"></td>
+        <td class="tog p2tog"><input type="button" class="toggle dt form-control"></td>
+        <td class="tog p3tog"><input type="button" class="toggle dt form-control"></td>
+      </tr>
+      <tr>
+        <td class='docName'>D</td>
+        <td class="docDiscription"><textarea rows="1" class="form-control"></textarea></td>
+        <td class="tog p1tog"><input type="button" class="toggle dt form-control"></td>
+        <td class="tog p2tog"><input type="button" class="toggle dt form-control"></td>
+        <td class="tog p3tog"><input type="button" class="toggle dt form-control"></td>
+      </tr>
+      <tr>
+        <td class='docName'>E</td>
+        <td class="docDiscription"><textarea rows="1" class="form-control"></textarea></td>
+        <td class="ptog p1tog"><input type="button" class="toggle dt form-control"></td>
+        <td class="ptog p2tog"><input type="button" class="toggle dt form-control"></td>
+        <td class="ptog p3tog"><input type="button" class="toggle dt form-control"></td>
+      </tr>
+    </table>
+
+  </div>
+  <script defer src="./renderer.js"></script>
 
 </body>
-
-<!-- <body>
-  <div id="left">
-    <div id="motors_wrap" class="input-group">
-    </div>
-    <div id="gears" class="input-group">
-      <div id="table_wrap">
-        <table id="gears_table" class="">
-          <thead>
-            <tr>
-              <th scope="col">Driving Gear</th>
-              <th scope="col">Driven Gear</th>
-            </tr>
-          </thead>
-          <tbody id="gear_body"></tbody>
-        </table>
-      </div>
-      <div id="gear_wrapper">
-        <button id='add_gear' class='btn btn-dark'>Add</button>
-        <button id='rm_gear' class='btn btn-danger'>&times;</button>
-      </div>
-    </div>
-    <div id="outputs" class="input-group">
-      <table>
-        <tr>
-          <td>
-            <div class="input-wrapper">
-              <label for="tg">Free Speed</label>
-              <span class="var form-control" id="dfs"></span>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="input-wrapper">
-              <label for="mg">Adjusted Speed</label>
-              <span class="var form-control" id="das"></span>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="input-wrapper">
-              <label for="mg">Current Draw per Motor</label>
-              <span class="var form-control" id="cdpm"></span>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="input-wrapper">
-              <label for="mg">Total Current Draw</label>
-              <span class="var form-control" id="tcd"></span>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </div>
-  </div>
-  <div id="right">
-    <div id="motors" class="input-group">
-      <table>
-        <tr>
-          <td>
-            <div class="input-wrapper">
-              <label for="fs">Free Speed</label>
-              <input class="var form-control" type="number" min="0" step="0.01" id="fs">
-            </div>
-          </td>
-          <td>
-            <div class="input-wrapper">
-              <label for="st">Stall Torque</label>
-              <input class="var form-control" type="number" min="0" step="0.01" id="st">
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="input-wrapper">
-              <label for="sc">Stall Current</label>
-              <input class="var form-control" type="number" min="0" step="0.01" id="sc">
-            </div>
-          </td>
-          <td>
-            <div class="input-wrapper">
-              <label for="fc">Free Current</label>
-              <input class="var form-control" type="number" min="0" step="0.01" id="fc">
-            </div>
-          </td>
-        </tr>
-      </table>
-    </div>
-    <div id="wheels" class="input-group">
-      <table>
-        <tr>
-          <td>
-            <div class="input-wrapper">
-              <label for="fs">Wheel Radius</label>
-              <input class="var form-control" type="number" min="0" id="wr" value="3">
-            </div>
-          </td>
-          <td>
-            <div class="input-wrapper">
-              <label for="tw">Total Weight</label>
-              <input class="var form-control" type="number" min="0" id="tw" value="100">
-            </div>
-          </td>
-        </tr>
-      </table>
-    </div>
-    <div id="gearbox" class="input-group">
-      <table>
-        <tr>
-          <td>
-            <div class="input-wrapper">
-              <label for="tg">Number of Gearboxes</label>
-              <input class="var form-control" type="number" min="1" id="tg" value="2">
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="input-wrapper">
-              <label for="mg">Motors per Gearbox</label>
-              <input class="var form-control" type="number" min="1" id="mg" value="2">
-            </div>
-          </td>
-        </tr>
-      </table>
-    </div>
-    <div id="constants" class="input-group">
-      <table>
-        <tr>
-          <td>
-            <div class="input-wrapper">
-              <label for="slc">Speed Loss Constant</label>
-              <input class="var form-control" type="number" max="1" min="0" id="slc" step="0.01" value="0.81">
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="input-wrapper">
-              <label for="de">Drivetrain Effiency</label>
-              <input class="var form-control" type="number" max="1" min="0" id="de" step="0.01" value="0.9">
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="input-wrapper">
-              <label for="st">Wheel Coefficent</label>
-              <input class="var form-control" type="number" min="0" id="wc" step="0.1" value="1.1">
-            </div>
-          </td>
-        </tr>
-      </table>
-    </div>
-  </div>
-
-  <script src="./renderer.js"></script>
-</body> -->
-
-</html>
