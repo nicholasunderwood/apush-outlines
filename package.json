@@ -1,32 +1,31 @@
 {
-  "name": "gearbox-calculator",
+  "name": "apush-outline",
   "version": "1.0.0",
-  "description": "An application for calculations related to single speed gear boxes",
+  "description": "A tool for organizing documents for a APUSH DBQ",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "reinstall": "rm -rf ./node_modules/ && npm install && npm start",
-    "compress": "electron-builder --dir",
-    "package": "electron-builder",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
     "postinstall": "electron-builder install-app-deps"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
-    "frc",
-    "gearbox"
+    "APUSH", "AP", "AP US History"
   ],
-  "author": "Team 5419",
+  "author": "Nicholas Underwood",
   "license": "CC0-1.0",
   "devDependencies": {
+    "electron-builder": "^22.6.0",
     "electron": "^7.0.0"
   },
   "dependencies": {
-    "electron-builder": "^22.6.0",
     "jquery": "^3.4.1"
   },
   "build": {
     "asar": true,
-    "productName": "Gearbox Calculator",
+    "productName": "APUSH DBQ Outline",
     "win": {
       "target": "portable",
       "icon": "./build/icon.ico",
