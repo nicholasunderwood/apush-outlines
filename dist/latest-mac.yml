@@ -1,12 +1,12 @@
 version: 1.0.0
 files:
   - url: APUSH-DBQ-Outline-1.0.0-mac.zip
-    sha512: XFjop6V+jxWsFT6MjmOYndZH8INLoBD2rSeZRPlcjcoipgq4fwQBIMo7q0DPH28PDonGBrPMLv8xCArvVu2cjA==
-    size: 60952075
-    blockMapSize: 64912
+    sha512: zzTunMK770ZFqxELCFeAwhI5Mw1AVO3n4mRVjsGkc77UtDP2pYa3IUo6NItUxKW8ULKo2E+IrwUHU3eZBM0yOA==
+    size: 60952070
+    blockMapSize: 64907
   - url: APUSH-DBQ-Outline-1.0.0.dmg
-    sha512: 5ykARiOHeTEHwE/MCRq1k1vh8GmNPjyk4FQvW0wBHAWEVpxUFPtrE/bocbziACiSkm2R8U6p75ySdrIxc/Slhw==
-    size: 62883520
+    sha512: I/TttmjOTN237g3ZlDK10Ra4Cts+9TF2FpNHswncm54Sarrj9fc0FelV+FjaPmeO110MGD3cWvyDYv2G079Wrw==
+    size: 62883583
 path: APUSH-DBQ-Outline-1.0.0-mac.zip
-sha512: XFjop6V+jxWsFT6MjmOYndZH8INLoBD2rSeZRPlcjcoipgq4fwQBIMo7q0DPH28PDonGBrPMLv8xCArvVu2cjA==
-releaseDate: '2020-05-13T00:00:06.313Z'
+sha512: zzTunMK770ZFqxELCFeAwhI5Mw1AVO3n4mRVjsGkc77UtDP2pYa3IUo6NItUxKW8ULKo2E+IrwUHU3eZBM0yOA==
+releaseDate: '2020-05-13T01:19:16.245Z'
